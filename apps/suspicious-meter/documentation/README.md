@@ -9,10 +9,13 @@ Suspicious Meter is a simple Expo mini app that lets a user enter a person, beha
 ```text
 apps/suspicious-meter/
   App.tsx
+  README.md
   app.json
   package-lock.json
   package.json
   tsconfig.json
+  assets/
+    suspicious.png
   utils/
     calculateSuspicionScore.ts
   documentation/
@@ -20,6 +23,7 @@ apps/suspicious-meter/
     component-index.md
     changelog.md
     App.md
+    project-readme.md
     app.json.md
     package-lock.json.md
     package.json.md
@@ -33,6 +37,8 @@ apps/suspicious-meter/
 The `documentation` folder mirrors the project structure at a small scale because this version of the app is intentionally minimal. Each source or configuration file in the project has a matching markdown document that explains its purpose, exports, inputs, logic, dependencies, implementation notes, and recent changes.
 
 Generated development artifacts such as `node_modules/` and `.expo/` are intentionally excluded from the documentation system because they are recreated locally and are not maintained as source files.
+
+The project also includes an `assets` folder with a preview image used by the local project `README.md` so the app can show a visual preview on GitHub.
 
 ## Behavior Summary
 
@@ -57,3 +63,4 @@ Generated development artifacts such as `node_modules/` and `.expo/` are intenti
 - Documented the single-screen app structure and supporting configuration files
 - Updated the project structure and behavior summary for rule-based suspicion analysis
 - Added the package lockfile to the documented project structure and clarified generated-folder exclusions
+- Added project README preview support using the detected `assets/suspicious.png` image

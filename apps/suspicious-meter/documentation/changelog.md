@@ -22,3 +22,8 @@
 - Created `documentation/package-lock.json.md` to document the npm lockfile
 - Updated `documentation/README.md` and `documentation/component-index.md` to include the lockfile and clarify generated-folder exclusions
 - Updated `documentation/package.json.md` to reflect the current installed Expo dependency versions
+- Created `README.md` with a GitHub-ready app preview section using the detected `assets/suspicious.png` image
+- Updated `documentation/README.md` and `documentation/component-index.md` to reflect project preview image support
+- Created `documentation/project-readme.md` to document the project overview README
+- Updated `README.md` to add a dedicated purpose section, local run instructions, and implementation notes
+- Updated `documentation/component-index.md` and `documentation/project-readme.md` to reflect the README run-guide improvements
