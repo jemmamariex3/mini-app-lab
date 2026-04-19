@@ -7,10 +7,12 @@ import {
   TextInput,
   View,
 } from 'react-native';
+import { calculateSuspicionScore } from './utils/calculateSuspicionScore';
 
 type AnalysisResult = {
   score: number;
   verdict: string;
+  signals: string[];
 };
 
 const getVerdict = (score: number) => {
@@ -34,11 +36,12 @@ export default function App() {
   const [result, setResult] = useState<AnalysisResult | null>(null);
 
   const handleAnalyze = () => {
-    const score = Math.floor(Math.random() * 101);
+    const analysis = calculateSuspicionScore(subject);
 
     setResult({
-      score,
-      verdict: getVerdict(score),
+      score: analysis.score,
+      signals: analysis.detectedSignals,
+      verdict: getVerdict(analysis.score),
     });
   };
 
@@ -82,6 +85,19 @@ export default function App() {
 
             <Text style={styles.resultLabel}>Verdict</Text>
             <Text style={styles.verdict}>{result.verdict}</Text>
+
+            <Text style={styles.resultLabel}>Signals Detected</Text>
+            {result.signals.length > 0 ? (
+              <View style={styles.signalsList}>
+                {result.signals.map((signal) => (
+                  <Text key={signal} style={styles.signalItem}>
+                    - {signal}
+                  </Text>
+                ))}
+              </View>
+            ) : (
+              <Text style={styles.noSignals}>No suspicious signals detected.</Text>
+            )}
           </View>
         ) : (
           <View style={styles.placeholderCard}>
@@ -192,5 +208,18 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: '700',
     color: '#1f2937',
+    marginBottom: 18,
+  },
+  signalsList: {
+    gap: 8,
+  },
+  signalItem: {
+    fontSize: 16,
+    color: '#374151',
+    lineHeight: 22,
+  },
+  noSignals: {
+    fontSize: 16,
+    color: '#6b7280',
   },
 });

@@ -48,3 +48,4 @@ Defines the package metadata, Expo run scripts, and dependencies required to run
 
 - Created the initial Expo package manifest for Suspicious Meter
 - Added only the dependencies needed for a basic TypeScript Expo app
+- Updated dependency versions to match the installed Expo 54 toolchain used by the current project state

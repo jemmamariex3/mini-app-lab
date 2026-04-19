@@ -12,3 +12,13 @@
 - Created `documentation/package.json.md` to document the package manifest
 - Created `documentation/app.json.md` to document the Expo configuration
 - Created `documentation/tsconfig.json.md` to document the TypeScript configuration
+- Updated `App.tsx` to replace fully random scoring with rule-based text analysis and a detected-signals display
+- Created `utils/calculateSuspicionScore.ts` to normalize input, match weighted keywords, and compute the final suspicion score
+- Updated `documentation/README.md` to describe the rule-based scoring behavior and expanded project structure
+- Updated `documentation/component-index.md` to include the scoring helper and revised app description
+- Updated `documentation/App.md` to reflect the new helper-driven analysis flow and signal display
+- Created `documentation/utils/calculateSuspicionScore.md` to document the text analysis helper module
+- Created `package-lock.json` during dependency installation to capture the resolved npm dependency tree
+- Created `documentation/package-lock.json.md` to document the npm lockfile
+- Updated `documentation/README.md` and `documentation/component-index.md` to include the lockfile and clarify generated-folder exclusions
+- Updated `documentation/package.json.md` to reflect the current installed Expo dependency versions
