@@ -70,6 +70,8 @@ Projects are listed here automatically. Descriptions should be pulled from a pro
 
 | Project | Description |
 |--------|-------------|
+| [personality-decoder](apps/personality-decoder) | A simple Expo mini app that predicts a 4-letter personality type from rule-based text analysis. |
+| [suspicious-meter](apps/suspicious-meter) | A simple Expo mini app that generates a playful suspicion score and verdict from keyword-based text analysis. |
 
 ## Development Workflow
 
