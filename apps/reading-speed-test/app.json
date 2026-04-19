@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Reading Speed Test",
+    "slug": "reading-speed-test",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#f3f4ff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

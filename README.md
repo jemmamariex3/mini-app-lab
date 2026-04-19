@@ -71,6 +71,7 @@ Projects are listed here automatically. Descriptions should be pulled from a pro
 | Project | Description |
 |--------|-------------|
 | [personality-decoder](apps/personality-decoder) | A simple Expo mini app that predicts a 4-letter personality type from rule-based text analysis. |
+| [reading-speed-test](apps/reading-speed-test) | A lightweight Expo mini app that measures reading speed and comprehension with timed passages and quizzes. |
 | [suspicious-meter](apps/suspicious-meter) | A simple Expo mini app that generates a playful suspicion score and verdict from keyword-based text analysis. |
 
 ## Development Workflow

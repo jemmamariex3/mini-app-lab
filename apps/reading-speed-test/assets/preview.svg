@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none">
+  <rect width="1200" height="900" fill="#EEF1FF"/>
+  <rect x="120" y="80" width="960" height="740" rx="36" fill="white"/>
+  <rect x="190" y="150" width="360" height="36" rx="18" fill="#D7DBFF"/>
+  <rect x="190" y="210" width="720" height="20" rx="10" fill="#E9ECFF"/>
+  <rect x="190" y="245" width="620" height="20" rx="10" fill="#E9ECFF"/>
+  <rect x="190" y="315" width="820" height="320" rx="24" fill="#F7F8FF" stroke="#D9DDF8" stroke-width="4"/>
+  <rect x="230" y="360" width="270" height="22" rx="11" fill="#CDD3FF"/>
+  <rect x="230" y="410" width="720" height="16" rx="8" fill="#DFE4FF"/>
+  <rect x="230" y="442" width="700" height="16" rx="8" fill="#DFE4FF"/>
+  <rect x="230" y="474" width="730" height="16" rx="8" fill="#DFE4FF"/>
+  <rect x="230" y="506" width="680" height="16" rx="8" fill="#DFE4FF"/>
+  <rect x="230" y="538" width="610" height="16" rx="8" fill="#DFE4FF"/>
+  <rect x="190" y="690" width="300" height="74" rx="22" fill="#4A56C8"/>
+  <text x="225" y="738" fill="white" font-family="Arial, sans-serif" font-size="30" font-weight="700">Reading Speed Test</text>
+</svg>
